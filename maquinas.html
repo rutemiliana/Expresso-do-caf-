@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/sitecafe_p1.css"/>
+        <title>Expresso do café</title>
+    </head>
+    <script type = "text/javascript" src="js/maquinas.js"></script>
+    <body>
+        <header>
+            <img src="img/Logo_Pequeno.png" class="imgLogo"/>
+            <div class="ender">
+                <ul>
+                    <li>Avenida Mochaccino, 10</li>
+                    <li>Tel:(21) 1234-5678</li>
+                    <li>contato@coffe.com.br</li>    
+                </ul>
+            </div>
+  
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicial</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="#">Máquinas</a></li>
+                <li><a href="saches.html">Sachês</a></li>
+                <li><a href="compras.html">Compras</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <table class="tableInfo" >
+            <tr>
+              <th colspan="4" class="linTH">Máquinas de Café</th> 
+            </tr>
+            <tr>
+                <th class="linTH">Tipo</th>
+                <th class="linTH">Modelo</th>
+                <th class="linTH">Foto</th>
+                <th class="linTH">Preço</th>   
+            </tr>
+            <tr>
+                <th  class="colTH">Dolce Gusto</th>
+                <td class=""><a id="linkMaquina" onclick="dolcePiccolo()">Piccolo</a> </a></td>               
+                <td rowspan="4" class=""><div id="maquina"><img src="img/Vazio.jpg" alt=""> </div></td>
+                <td  rowspan="4" class="preco"><div id="preco"></div></td>  
+            </tr>
+            <tr>
+                <th rowspan="2" class="colTH">Nespresso</th>
+                <td class=""><a onclick="nespressoInissia()">Inissia C40</a></td>
+            </tr>
+            <tr>
+                <td class=""> <a onclick="nespressoUC()">U C50 </a></td>
+            </tr>
+            <tr>
+                <th class="colTH">Senseo</th>
+                <td class=""> <a onclick="senseoHD()">HD7811/96</a></td>
+            </tr>
+            </table> 
+        </section>
+
+      
+    </body>
+</html>

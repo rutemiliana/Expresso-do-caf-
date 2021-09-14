@@ -1,0 +1,404 @@
+body{
+    background-image: url("../img/Fundo.jpg");
+    color: #FFEEBB; 
+    font-family: Verdana; 
+    font-size: 16px;   
+}
+
+header{ 
+    display:block; 
+    margin-bottom: 1px; 
+}
+.ender{
+    text-align: right;
+    font: 16px; 
+    line-height: 150%; 
+    float: right; 
+}
+
+.ender ul{
+    list-style: none;
+}
+
+nav {
+    display: block;
+    width: 20% ; 
+    float:left; 
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link{
+    color: #FFEEBB;
+}
+
+a:visited{
+    color:#DDCC99;
+}
+
+nav ul{
+    color: #FFEEBB;
+    list-style-type: circle;
+    margin-top: 30px;
+}
+
+ul, ol{
+    line-height: 200%;
+}
+
+
+
+.imgLogo{
+    border-bottom: solid; 
+    margin-bottom: 6px; 
+    padding-bottom: 15px;
+}
+
+
+
+
+section {
+    display: block;
+    width: 77%;
+    float: right;
+}
+
+.apress{
+    text-align: center;
+}
+
+/** História**/
+
+.historia{
+    text-align: justify;
+}
+
+.imgdir{
+    margin: 12px 0px 4px 12px;
+    float: right;
+}
+
+.imgesq{
+    margin: 12px 12px 4px 0px;
+    float: left;
+}
+
+.fonte{
+    text-align: right;
+    font-style: italic;
+}
+
+.tableInfo{    
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #573218;
+    font-family: 'ubuntu';
+}
+
+td,th{    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #664422;
+    padding: 6px 12px 6px 12px;
+    text-align: center; 
+}
+
+.linTH{
+    color: #FFFFFF;
+    background-color: #907968;
+    vertical-align: middle;
+    text-align: center;  
+}
+
+.colTH{
+    color: #573218;
+    background-color: #eaceae;
+    text-align: left;
+}
+
+.preco{
+    color: #CC0000;
+    font-weight: bold;
+    vertical-align: middle;
+    
+}
+
+
+form{
+	float: right;
+}
+
+fieldset{
+	background-color: #907968;
+}
+
+.fsForm{
+	width: 524px;
+	clear: both;
+}
+
+.fsResEsq{
+    width: 200px;
+    height: 280px;
+    float:left;
+}
+
+.fsResDir{
+    width: 280px;
+    height: 280px;
+    float:right;
+}
+
+legend{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select{
+    border-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    
+}
+
+label[for="nome"] , label[for="telefone"], label[for="endereco"], label[for="validade"], label[for="numero"], label[for="maquinas"], label[for="numero-cartao"] {
+    width: 90px;
+}
+
+label[for="saches"]{
+    width: 70px;
+}
+
+label[for="cpf"] , label[for="email"] {
+    width: 70px;
+    margin-left: 28px;
+}
+label[for="selecionados"]{
+    width: 145px;
+}
+
+label[for="valor"]{
+    width: 140px;
+}
+
+#nome{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+#camponome{
+    width: 200px;
+}
+
+#cpf{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#campocpf, #campotelefone{
+    width: 120px;
+}
+
+#telefone{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+#email{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#campoemail{
+    width: 200px;
+}
+
+#endereco{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 10px;   
+}
+#campoendereco{
+    width: 420px;
+}
+
+#maquinas{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+#opmaquina{
+    width: 120px;
+}
+#opsaches{
+    width: 140px;
+}
+
+select [id="opmaquinas"]{
+    float: right;
+}
+
+#saches{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+#selecionados{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+#valor{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+#campovalor{
+    align-items: rigth;
+    width: 60px;
+}
+
+
+
+
+#produtos{
+    display: flex;
+    align-items: center;
+}
+#maquinas{
+    display: flex;
+    align-items: center;
+}
+#saches{
+    display: flex;
+    align-items: center;
+}
+#selecionados{
+    display: flex;
+    align-items: center;
+}
+
+#valor{
+    display: flex;
+    align-items: center;
+    
+}
+
+textarea{
+    width: 200px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#cartoes{
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"]{
+    width: 25px;
+    margin-top: -5px;
+}
+
+
+#validade{
+    display: flex;
+    align-items: center;
+}
+
+#campomes{
+    width: 25px;
+    margin-right: 5px;
+}
+
+#campoano{
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+#numero{
+    display: flex;
+    align-items: center;
+    
+}
+#numero-cartao{
+    width: 100px;
+}
+
+input[type="submit"], input[type="reset"]{
+	float: right;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/*SACHES - */
+
+#popup{
+    background-image: url("../img/Fundo.jpg");
+    width: 280px;
+    height: 480px;
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 5px verdana;
+    margin: 10px 0px 50px 500px; /*TOP, BOTTON, LEFT, RIGTH*/ 
+    border: 10px;
+    border-radius: 10px;
+    border-style: solid double;
+    border-color: whitesmoke;
+    box-shadow:  30px white;
+    
+}
+
+#popup li{
+    font-size: 15px;
+}
+
+.thumb{
+    width: 80px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#thumb{
+    
+    margin-bottom: -30px;
+    
+    
+}
+
+/*Maquinas*/
+#linkmaquina a:visited{
+    color:  #662222;
+}
+
+.linkmaquina a:link{
+    color:#573218 ;
+}
+
+
+
+ 
+
